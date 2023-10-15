@@ -1,0 +1,65 @@
+@media(max-width:768px){
+    .container{
+        align-items: center;
+        flex-flow: column;
+        justify-content: center;
+    }
+    header{
+        text-align: center;
+    }
+    header>nav>ul>li{
+        border: none;
+    }
+    .header>nav>ul>li{
+        display: block;
+    }
+    .banner1{
+        background: url(../images/mobilev.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .banner5>div{
+        width: 60%;
+    }
+
+    .text{
+        width: 300px;
+        font-size: 20px;
+    }
+    .text1{
+        width: 200px;
+        font-size: 10px;
+    }
+    .banner4>img{
+        height: 200px;
+    }
+    .banner7>#second{
+        width: 100%;
+    }
+    .swiper{
+        width: 100%;
+    }
+}
+
+@media(min-width:769px) and (max-width:1200px){
+    .container{
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .banner1{
+        background: url(../images/tablv.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .banner5>div{
+        width: 60%;
+    }
+    .text{
+        width: 600px;
+        font-size: 40px;
+    }
+    .text1{
+        width: 800px;
+        font-size: 20px;
+    }
+
+}
