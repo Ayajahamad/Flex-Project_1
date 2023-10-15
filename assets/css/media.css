@@ -13,6 +13,10 @@
     .header>nav>ul>li{
         display: block;
     }
+    .header{
+        position: relative;
+        top: none;
+    }
     .banner1{
         background: url(../images/mobilev.jpg) no-repeat center;
         background-size: cover;
